@@ -1,0 +1,20 @@
+# Global variables
+GLOBAL_RESULTS = None
+
+CHECKBOX_STATE=0
+DEBUG_GUI = True
+KILL_THREADS = False
+DEBUG = True
+
+# UDP connection settings
+USE_LEGACY_PIPES = False
+HOST = '127.0.0.1'
+PORT = 52733
+
+# WebCam settings
+CAM_INDEX = 0
+USE_CUSTOM_CAM_SETTINGS = False
+FPS = 60
+WIDTH = 320
+HEIGHT = 240
+MODEL_COMPLEXITY = 2
